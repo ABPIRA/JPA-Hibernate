@@ -10,7 +10,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Person {
+public class Person extends BaseEntity{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
